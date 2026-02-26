@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dophrsm34twi5"
+path="res://.godot/imported/Nitro 700 shot.mp3-6facc1c88e7fa3b1f0456bf6a71e6ce4.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/weapons sound/Nitro 700 shot.mp3"
+dest_files=["res://.godot/imported/Nitro 700 shot.mp3-6facc1c88e7fa3b1f0456bf6a71e6ce4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

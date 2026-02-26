@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bf43abj4iqmo"
+path="res://.godot/imported/Cacodemon attack.mp3-c77d9f1f1120648835d5e36c2d32deff.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Cacodemon attack.mp3"
+dest_files=["res://.godot/imported/Cacodemon attack.mp3-c77d9f1f1120648835d5e36c2d32deff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

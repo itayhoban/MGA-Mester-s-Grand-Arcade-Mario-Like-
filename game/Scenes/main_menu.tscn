@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://de6jvrv0xayip"]
+
+[ext_resource type="Texture2D" uid="uid://cslepim528r2s" path="res://Assets/Sprites/main menu.png" id="1_ce3w2"]
+[ext_resource type="PackedScene" uid="uid://di3kibajg6ifn" path="res://Scenes/ui.tscn" id="2_n45e2"]
+[ext_resource type="Script" uid="uid://c85blwv51ags5" path="res://Scripts/menu.gd" id="4_cp0ys"]
+
+[node name="main_menu" type="Node"]
+script = ExtResource("4_cp0ys")
+
+[node name="Startbutton" type="Button" parent="."]
+offset_left = 56.0
+offset_top = 139.0
+offset_right = 275.0
+offset_bottom = 179.0
+
+[node name="redx" type="Button" parent="."]
+offset_left = 310.0
+offset_top = -196.0
+offset_right = 345.0
+offset_bottom = -161.0
+
+[node name="credit" type="Button" parent="."]
+offset_left = -176.0
+offset_top = 97.0
+offset_right = -58.0
+offset_bottom = 185.0
+
+[node name="quit" type="Button" parent="."]
+offset_left = -301.0
+offset_top = 96.0
+offset_right = -196.0
+offset_bottom = 185.0
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+visible = false
+offset_left = -292.0
+offset_top = -160.0
+offset_right = 435.0
+offset_bottom = 140.0
+color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+
+[node name="Camera2D" type="Camera2D" parent="Node2D"]
+zoom = Vector2(2.75, 2.75)
+
+[node name="MainMenu" type="Sprite2D" parent="Node2D"]
+position = Vector2(0.0166187, 0.170328)
+scale = Vector2(0.551316, 0.552892)
+texture = ExtResource("1_ce3w2")
+
+[node name="UI" parent="Node2D" instance=ExtResource("2_n45e2")]
+visible = false

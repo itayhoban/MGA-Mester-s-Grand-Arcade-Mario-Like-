@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://des7u8hne7b4h"]
+
+[ext_resource type="FontFile" uid="uid://dm3ch1vmt4ixr" path="res://Assets/Fonts/font.ttf" id="1_qchik"]
+[ext_resource type="Script" uid="uid://bclf8ahfqxc2e" path="res://Scripts/points_label.gd" id="2_15uxs"]
+
+[node name="PointsLabel" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_qchik")
+theme_override_font_sizes/font_size = 10
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_15uxs")

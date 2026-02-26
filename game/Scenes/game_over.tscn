@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://bmafreomws8ta"]
+
+[ext_resource type="Texture2D" uid="uid://b3fvqkinckq1x" path="res://Assets/Sprites/game over.png" id="1_8fo1c"]
+[ext_resource type="Script" uid="uid://k5xwb6yumr04" path="res://Scripts/gameover.gd" id="1_j3ryr"]
+[ext_resource type="PackedScene" uid="uid://di3kibajg6ifn" path="res://Scenes/ui.tscn" id="2_ek8ke"]
+[ext_resource type="Texture2D" uid="uid://dx8f6m6vw7t6f" path="res://Assets/Sprites/start again.png" id="3_ek8ke"]
+[ext_resource type="Texture2D" uid="uid://dxyfwl6lml0fs" path="res://Assets/Sprites/redX.png" id="5_14u15"]
+
+[node name="Gameover" type="Node"]
+script = ExtResource("1_j3ryr")
+
+[node name="startbutton" type="Button" parent="."]
+offset_left = 227.0
+offset_top = -195.0
+offset_right = 345.0
+offset_bottom = -119.0
+
+[node name="redx" type="Button" parent="."]
+offset_left = -346.0
+offset_top = -196.0
+offset_right = -311.0
+offset_bottom = -161.0
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+visible = false
+offset_left = -292.0
+offset_top = -160.0
+offset_right = 435.0
+offset_bottom = 140.0
+color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+
+[node name="Camera2D" type="Camera2D" parent="Node2D"]
+zoom = Vector2(2.75, 2.75)
+
+[node name="GameOver" type="Sprite2D" parent="Node2D"]
+position = Vector2(1.04308e-06, -1.00002)
+scale = Vector2(0.412979, 0.415094)
+texture = ExtResource("1_8fo1c")
+
+[node name="UI" parent="Node2D" instance=ExtResource("2_ek8ke")]
+visible = false
+
+[node name="StartAgain" type="Sprite2D" parent="."]
+position = Vector2(286.75, -157)
+scale = Vector2(0.344193, 0.38)
+texture = ExtResource("3_ek8ke")
+
+[node name="RedX" type="Sprite2D" parent="."]
+position = Vector2(-328.562, -178.75)
+scale = Vector2(0.129613, 0.131482)
+texture = ExtResource("5_14u15")

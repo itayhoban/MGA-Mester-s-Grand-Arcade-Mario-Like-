@@ -1,0 +1,51 @@
+[gd_scene load_steps=2 format=3 uid="uid://cknu8qkbwfv2q"]
+
+[ext_resource type="Script" uid="uid://cy4a7gyfm1gsc" path="res://Scripts/trivia_quiz.gd" id="1_b4iqw"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_b4iqw")
+
+[node name="TriviaQuiz" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="TriviaQuiz"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.588235)
+
+[node name="MarginContainer" type="MarginContainer" parent="TriviaQuiz"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TriviaQuiz/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="CategoryLabel" type="Label" parent="TriviaQuiz/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+horizontal_alignment = 1
+
+[node name="QuestionLabel" type="Label" parent="TriviaQuiz/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="AnswerContainer" type="VBoxContainer" parent="TriviaQuiz/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+theme_override_constants/separation = 20

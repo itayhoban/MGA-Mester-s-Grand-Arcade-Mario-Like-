@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbi3qd2c0lje4"
+path="res://.godot/imported/Cyberdemon attack.mp3-9800c2379a5ce6bb2014cfc296bbef7d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Cyberdemon attack.mp3"
+dest_files=["res://.godot/imported/Cyberdemon attack.mp3-9800c2379a5ce6bb2014cfc296bbef7d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

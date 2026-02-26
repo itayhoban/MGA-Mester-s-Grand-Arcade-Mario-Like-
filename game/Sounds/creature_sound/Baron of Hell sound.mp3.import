@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cp2eqbo1ff62n"
+path="res://.godot/imported/Baron of Hell sound.mp3-d06614fd05ceeb5919d78f54be5fec4a.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Baron of Hell sound.mp3"
+dest_files=["res://.godot/imported/Baron of Hell sound.mp3-d06614fd05ceeb5919d78f54be5fec4a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

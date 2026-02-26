@@ -1,0 +1,491 @@
+[gd_scene load_steps=39 format=3 uid="uid://cr50o6y6uw636"]
+
+[ext_resource type="PackedScene" uid="uid://u86f0bkjecs8" path="res://Scenes/main.tscn" id="1_cmmbj"]
+[ext_resource type="Texture2D" uid="uid://bbd1cchxb20u2" path="res://Assets/Sprites/Bush1.png" id="2_dlanv"]
+[ext_resource type="Texture2D" uid="uid://ggrv7avq2vw" path="res://Assets/Sprites/Bush2.png" id="3_onqnr"]
+[ext_resource type="Texture2D" uid="uid://j6grr7g688fn" path="res://Assets/Sprites/Bush3.png" id="4_styii"]
+[ext_resource type="PackedScene" uid="uid://cd33hk6eq4q57" path="res://Scenes/goomba.tscn" id="5_mhlpv"]
+[ext_resource type="PackedScene" uid="uid://xfsubdxn8epd" path="res://Scenes/pipe.tscn" id="5_onqnr"]
+[ext_resource type="PackedScene" uid="uid://d3044cyim3hwv" path="res://Scenes/koopa.tscn" id="6_ng020"]
+[ext_resource type="PackedScene" uid="uid://b7pnmbn4pwttt" path="res://Scenes/mystery_box.tscn" id="7_ng020"]
+[ext_resource type="PackedScene" uid="uid://bpg7e3aqn2gu0" path="res://Scenes/fall_down_area.tscn" id="8_vn2uo"]
+[ext_resource type="PackedScene" uid="uid://dtamilr01gekh" path="res://Scenes/brick.tscn" id="10_r8hce"]
+[ext_resource type="Texture2D" uid="uid://blnhybplx2u4t" path="res://Assets/Sprites/grape_blue.png" id="10_ukdoj"]
+[ext_resource type="PackedScene" uid="uid://wtn087e13tgs" path="res://Scenes/collectable_coin.tscn" id="11_d87oc"]
+[ext_resource type="Texture2D" uid="uid://boarwxnd8uqy8" path="res://Assets/Sprites/Coin2.png" id="12_6y803"]
+[ext_resource type="Texture2D" uid="uid://c4p2nxl2x5d8n" path="res://Assets/Sprites/Brick2.png" id="15_uvwjj"]
+[ext_resource type="Texture2D" uid="uid://bo5faxg148sqy" path="res://Assets/Sprites/cactus1.png" id="16_ukdoj"]
+[ext_resource type="Texture2D" uid="uid://8aib8gkw1c18" path="res://Assets/Sprites/barrel.png" id="17_5mqgo"]
+[ext_resource type="Texture2D" uid="uid://ba7ndmg0bn7ji" path="res://Assets/Sprites/carrot.png" id="18_d87oc"]
+[ext_resource type="Texture2D" uid="uid://bywk37qva4l1f" path="res://Assets/Sprites/chain.png" id="19_6y803"]
+[ext_resource type="Texture2D" uid="uid://beeoixiugnu7y" path="res://Assets/Sprites/Cloud6.png" id="20_suqxw"]
+[ext_resource type="Texture2D" uid="uid://clh4o85nqf188" path="res://Assets/Sprites/Cloud2.png" id="21_6y803"]
+[ext_resource type="Texture2D" uid="uid://bt3q4jf7w3tde" path="res://Assets/Sprites/Cloud5.png" id="21_fpxdy"]
+[ext_resource type="Texture2D" uid="uid://cwy5o86wofu3r" path="res://Assets/Sprites/tree.png" id="22_suqxw"]
+[ext_resource type="Texture2D" uid="uid://6r62lwk7eh00" path="res://Assets/Sprites/Cow.png" id="22_uv1om"]
+[ext_resource type="Texture2D" uid="uid://n3wf4wh4jvb8" path="res://Assets/Sprites/MysterBox2.png" id="23_1g7bq"]
+[ext_resource type="Texture2D" uid="uid://c03ae8fs8nup3" path="res://Assets/Sprites/rock.png" id="23_fpxdy"]
+[ext_resource type="Texture2D" uid="uid://dued0p74rr2s1" path="res://Assets/Sprites/pipe.png" id="24_7xh8u"]
+[ext_resource type="Texture2D" uid="uid://dh1b1dulyl1ss" path="res://Assets/Sprites/Climb up.png" id="25_suqxw"]
+[ext_resource type="Texture2D" uid="uid://d32ggs72ep0rd" path="res://Assets/Sprites/Potion 5.png" id="26_7l1c6"]
+[ext_resource type="Texture2D" uid="uid://b8vqdk70av1n" path="res://Assets/Sprites/pumpkin.png" id="27_ne4o0"]
+[ext_resource type="Texture2D" uid="uid://cm47ujg7bdwce" path="res://Assets/Sprites/Sheep.png" id="28_em72g"]
+[ext_resource type="Texture2D" uid="uid://b3edgfblci86r" path="res://Assets/Sprites/tree11.png" id="29_cfko8"]
+[ext_resource type="Texture2D" uid="uid://chy04jvseoqko" path="res://Assets/Sprites/window.png" id="30_k5srv"]
+[ext_resource type="Texture2D" uid="uid://bmenwhufbmbnl" path="res://Assets/Sprites/mushroom2.png" id="31_dx0a1"]
+[ext_resource type="Texture2D" uid="uid://c2wgooeqe46km" path="res://Assets/Sprites/mushroom3.png" id="32_dofwa"]
+[ext_resource type="Texture2D" uid="uid://bult7q6c4a4d3" path="res://Assets/Sprites/2.png" id="32_se7y5"]
+[ext_resource type="Texture2D" uid="uid://bh2i2pbd72n30" path="res://Assets/Sprites/GroundBlock.png" id="33_72y22"]
+[ext_resource type="Texture2D" uid="uid://bw17auwtqmkcx" path="res://Assets/Sprites/supbox0.png" id="36_uv1om"]
+[ext_resource type="Texture2D" uid="uid://df0sk88m2t20d" path="res://Assets/Sprites/pipe_pink.png" id="37_1g7bq"]
+
+[node name="Level2" instance=ExtResource("1_cmmbj")]
+
+[node name="TileMap" parent="." index="0"]
+editor_description = "ITAY"
+rendering_quadrant_size = 24
+layer_0/modulate = Color(0.733333, 0.937255, 0.866667, 1)
+layer_0/tile_data = PackedInt32Array(262238, 2, 0, 131104, 1, 0, 327744, 1, 0, 327743, 1, 0, 327742, 1, 0, 327741, 1, 0, 327740, 1, 0, 327736, 1, 0, 327735, 1, 0, 327734, 1, 0, 327733, 1, 0, 327732, 1, 0, 327731, 1, 0, 327730, 1, 0, 327729, 1, 0, 327728, 1, 0, 327727, 1, 0, 327726, 1, 0, 327725, 1, 0, 327724, 1, 0, 327723, 1, 0, 327722, 1, 0, 327721, 1, 0, 327720, 1, 0, 327719, 1, 0, 327718, 1, 0, 327717, 1, 0, 327716, 1, 0, 327715, 1, 0, 327714, 1, 0, 327713, 1, 0, 327712, 1, 0, 327711, 1, 0, 327710, 1, 0, 327707, 1, 0, 327706, 1, 0, 327705, 1, 0, 327704, 1, 0, 327703, 1, 0, 327702, 1, 0, 327701, 1, 0, 327700, 1, 0, 327699, 1, 0, 327698, 1, 0, 327697, 1, 0, 327696, 1, 0, 327695, 1, 0, 327694, 1, 0, 327693, 1, 0, 327692, 1, 0, 327691, 1, 0, 327690, 1, 0, 327689, 1, 0, 327688, 1, 0, 327687, 1, 0, 327686, 1, 0, 327685, 1, 0, 327684, 1, 0, 327683, 1, 0, 327682, 1, 0, 327681, 1, 0, 327680, 1, 0, 393215, 1, 0, 393214, 1, 0, 393213, 1, 0, 393212, 1, 0, 393211, 1, 0, 393210, 1, 0, 393209, 1, 0, 393208, 1, 0, 393207, 1, 0, 393206, 1, 0, 393205, 1, 0, 393204, 1, 0, 393203, 1, 0, 458739, 1, 0, 524275, 1, 0, 524276, 1, 0, 458740, 1, 0, 458741, 1, 0, 524277, 1, 0, 524278, 1, 0, 458742, 1, 0, 458743, 1, 0, 524279, 1, 0, 524280, 1, 0, 458744, 1, 0, 458745, 1, 0, 524281, 1, 0, 524282, 1, 0, 458746, 1, 0, 458747, 1, 0, 524283, 1, 0, 524284, 1, 0, 458748, 1, 0, 458749, 1, 0, 524285, 1, 0, 524286, 1, 0, 458750, 1, 0, 458751, 1, 0, 524287, 1, 0, 458752, 1, 0, 393216, 1, 0, 393217, 1, 0, 458753, 1, 0, 458754, 1, 0, 393218, 1, 0, 393219, 1, 0, 458755, 1, 0, 458756, 1, 0, 393220, 1, 0, 393221, 1, 0, 458757, 1, 0, 458758, 1, 0, 393222, 1, 0, 393223, 1, 0, 458759, 1, 0, 458760, 1, 0, 393224, 1, 0, 393225, 1, 0, 458761, 1, 0, 458762, 1, 0, 393226, 1, 0, 393227, 1, 0, 458763, 1, 0, 458764, 1, 0, 393228, 1, 0, 393229, 1, 0, 458765, 1, 0, 458766, 1, 0, 393230, 1, 0, 393231, 1, 0, 458767, 1, 0, 458768, 1, 0, 393232, 1, 0, 393233, 1, 0, 458769, 1, 0, 458770, 1, 0, 393234, 1, 0, 393235, 1, 0, 458771, 1, 0, 458772, 1, 0, 393236, 1, 0, 393237, 1, 0, 458773, 1, 0, 458774, 1, 0, 393238, 1, 0, 393239, 1, 0, 458775, 1, 0, 458776, 1, 0, 393240, 1, 0, 393241, 1, 0, 458777, 1, 0, 458778, 1, 0, 393242, 1, 0, 393243, 1, 0, 458779, 1, 0, 458782, 1, 0, 393246, 1, 0, 393247, 1, 0, 458783, 1, 0, 458784, 1, 0, 393248, 1, 0, 393249, 1, 0, 458785, 1, 0, 458786, 1, 0, 393250, 1, 0, 393251, 1, 0, 458787, 1, 0, 458788, 1, 0, 393252, 1, 0, 393253, 1, 0, 458789, 1, 0, 458790, 1, 0, 393254, 1, 0, 393255, 1, 0, 458791, 1, 0, 458792, 1, 0, 393256, 1, 0, 393257, 1, 0, 458793, 1, 0, 458794, 1, 0, 393258, 1, 0, 393259, 1, 0, 458795, 1, 0, 458796, 1, 0, 393260, 1, 0, 393261, 1, 0, 458797, 1, 0, 458798, 1, 0, 393262, 1, 0, 393263, 1, 0, 458799, 1, 0, 458800, 1, 0, 393264, 1, 0, 393265, 1, 0, 458801, 1, 0, 458802, 1, 0, 393266, 1, 0, 393267, 1, 0, 458803, 1, 0, 458804, 1, 0, 393268, 1, 0, 393269, 1, 0, 458805, 1, 0, 458806, 1, 0, 393270, 1, 0, 393271, 1, 0, 458807, 1, 0, 458808, 1, 0, 393272, 1, 0, 458812, 1, 0, 393276, 1, 0, 393277, 1, 0, 458813, 1, 0, 458814, 1, 0, 393278, 1, 0, 393279, 1, 0, 458815, 1, 0, 458816, 1, 0, 393280, 1, 0, 393281, 1, 0, 327745, 1, 0, 327746, 1, 0, 393282, 1, 0, 458818, 1, 0, 458817, 1, 0, 458819, 1, 0, 393283, 1, 0, 327747, 1, 0, 327748, 1, 0, 393284, 1, 0, 458820, 1, 0, 458821, 1, 0, 393285, 1, 0, 327749, 1, 0, 327750, 1, 0, 393286, 1, 0, 458822, 1, 0, 458823, 1, 0, 393287, 1, 0, 327751, 1, 0, 327752, 1, 0, 393288, 1, 0, 458824, 1, 0, 458825, 1, 0, 393289, 1, 0, 327753, 1, 0, 327754, 1, 0, 393290, 1, 0, 458826, 1, 0, 458827, 1, 0, 393291, 1, 0, 327755, 1, 0, 327756, 1, 0, 393292, 1, 0, 458828, 1, 0, 458829, 1, 0, 393293, 1, 0, 327757, 1, 0, 327758, 1, 0, 393294, 1, 0, 458830, 1, 0, 458831, 1, 0, 393295, 1, 0, 327759, 1, 0, 327760, 1, 0, 393296, 1, 0, 458832, 1, 0, 458833, 1, 0, 393297, 1, 0, 327761, 1, 0, 327762, 1, 0, 393298, 1, 0, 458834, 1, 0, 458835, 1, 0, 393299, 1, 0, 327763, 1, 0, 327764, 1, 0, 393300, 1, 0, 458836, 1, 0, 458837, 1, 0, 393301, 1, 0, 327765, 1, 0, 327766, 1, 0, 393302, 1, 0, 458838, 1, 0, 458839, 1, 0, 393303, 1, 0, 327767, 1, 0, 458843, 1, 0, 393307, 1, 0, 327771, 1, 0, 327772, 1, 0, 393308, 1, 0, 458844, 1, 0, 458845, 1, 0, 393309, 1, 0, 327773, 1, 0, 327774, 1, 0, 393310, 1, 0, 458846, 1, 0, 458847, 1, 0, 393311, 1, 0, 327775, 1, 0, 327776, 1, 0, 393312, 1, 0, 458848, 1, 0, 458849, 1, 0, 393313, 1, 0, 327777, 1, 0, 327778, 1, 0, 393314, 1, 0, 458850, 1, 0, 458851, 1, 0, 393315, 1, 0, 327779, 1, 0, 327780, 1, 0, 393316, 1, 0, 458852, 1, 0, 458853, 1, 0, 393317, 1, 0, 327781, 1, 0, 327782, 1, 0, 393318, 1, 0, 458854, 1, 0, 458855, 1, 0, 393319, 1, 0, 327783, 1, 0, 327784, 1, 0, 393320, 1, 0, 458856, 1, 0, 458857, 1, 0, 393321, 1, 0, 327785, 1, 0, 327786, 1, 0, 393322, 1, 0, 458858, 1, 0, 458859, 1, 0, 393323, 1, 0, 327787, 1, 0, 327788, 1, 0, 393324, 1, 0, 458860, 1, 0, 262200, 1, 0)
+
+[node name="TileMap2" parent="." index="1"]
+position = Vector2(-458, 0)
+
+[node name="background" type="Node" parent="." index="2"]
+
+[node name="Bush4" type="Sprite2D" parent="background" index="0"]
+position = Vector2(624, 64)
+texture = ExtResource("4_styii")
+
+[node name="Bush1" type="Sprite2D" parent="background" index="1"]
+position = Vector2(-112, 64)
+texture = ExtResource("2_dlanv")
+
+[node name="Bush5" type="Sprite2D" parent="background" index="2"]
+position = Vector2(120, 64)
+texture = ExtResource("4_styii")
+
+[node name="Bush6" type="Sprite2D" parent="background" index="3"]
+position = Vector2(400, 64)
+texture = ExtResource("3_onqnr")
+
+[node name="Bush7" type="Sprite2D" parent="background" index="4"]
+position = Vector2(816, 64)
+texture = ExtResource("4_styii")
+
+[node name="Bush9" type="Sprite2D" parent="background" index="5"]
+position = Vector2(1336, 64)
+texture = ExtResource("3_onqnr")
+
+[node name="GrapeBlue" type="Sprite2D" parent="background" index="6"]
+position = Vector2(121, 67)
+scale = Vector2(0.785714, 0.611111)
+texture = ExtResource("10_ukdoj")
+
+[node name="GrapeBlue2" type="Sprite2D" parent="background" index="7"]
+position = Vector2(140, 70)
+scale = Vector2(0.571429, 0.5)
+texture = ExtResource("10_ukdoj")
+
+[node name="GrapeBlue3" type="Sprite2D" parent="background" index="8"]
+position = Vector2(103, 68)
+scale = Vector2(0.642857, 0.666667)
+texture = ExtResource("10_ukdoj")
+
+[node name="Cactus1" type="Sprite2D" parent="background" index="9"]
+modulate = Color(1, 1, 1, 0.627451)
+position = Vector2(1, 23)
+texture = ExtResource("16_ukdoj")
+
+[node name="Carrot" type="Sprite2D" parent="background" index="10"]
+position = Vector2(389, 69)
+scale = Vector2(0.5, 0.4375)
+texture = ExtResource("18_d87oc")
+
+[node name="Chain4" type="Sprite2D" parent="background" index="11"]
+position = Vector2(857, -54.25)
+scale = Vector2(1, 1.30702)
+texture = ExtResource("19_6y803")
+
+[node name="Cloud7" type="Sprite2D" parent="background" index="12"]
+position = Vector2(356.5, -69.5)
+scale = Vector2(1.46875, 1.4375)
+texture = ExtResource("20_suqxw")
+
+[node name="Cloud8" type="Sprite2D" parent="background" index="13"]
+position = Vector2(455, -88)
+texture = ExtResource("21_fpxdy")
+
+[node name="Cow2" type="Sprite2D" parent="background" index="14"]
+position = Vector2(358, -87)
+texture = ExtResource("22_uv1om")
+
+[node name="MysterBox2" type="Sprite2D" parent="background" index="15"]
+position = Vector2(664, 33)
+texture = ExtResource("23_1g7bq")
+
+[node name="Potion5" type="Sprite2D" parent="background" index="16"]
+position = Vector2(856, -112)
+texture = ExtResource("26_7l1c6")
+
+[node name="Pumpkin" type="Sprite2D" parent="background" index="17"]
+position = Vector2(1037, 72)
+texture = ExtResource("27_ne4o0")
+
+[node name="Sheep" type="Sprite2D" parent="background" index="18"]
+position = Vector2(440, -97)
+texture = ExtResource("28_em72g")
+
+[node name="Sheep2" type="Sprite2D" parent="background" index="19"]
+position = Vector2(474, -96)
+texture = ExtResource("28_em72g")
+flip_h = true
+
+[node name="Tree11" type="Sprite2D" parent="background" index="20"]
+position = Vector2(1139, 13.5)
+scale = Vector2(1.09375, 1.08594)
+texture = ExtResource("29_cfko8")
+
+[node name="Window" type="Sprite2D" parent="background" index="21"]
+position = Vector2(1682, 51)
+scale = Vector2(0.5, 0.435484)
+texture = ExtResource("30_k5srv")
+
+[node name="Window2" type="Sprite2D" parent="background" index="22"]
+position = Vector2(1631, 50)
+scale = Vector2(0.4569, 0.395161)
+texture = ExtResource("30_k5srv")
+
+[node name="Mushroom2" type="Sprite2D" parent="background" index="23"]
+position = Vector2(1734, 75)
+scale = Vector2(0.625, 0.558824)
+texture = ExtResource("31_dx0a1")
+
+[node name="Mushroom3" type="Sprite2D" parent="background" index="24"]
+position = Vector2(1712, 76)
+scale = Vector2(0.812508, 0.783333)
+texture = ExtResource("32_dofwa")
+
+[node name="GroundBlock" type="Sprite2D" parent="background" index="25"]
+position = Vector2(1512, 104)
+scale = Vector2(1, 3)
+texture = ExtResource("33_72y22")
+
+[node name="Cloud3" type="Sprite2D" parent="background" index="26"]
+position = Vector2(1340, -91)
+texture = ExtResource("21_6y803")
+
+[node name="Tree" type="Sprite2D" parent="background" index="27"]
+position = Vector2(1724, 57)
+scale = Vector2(1.03125, 1.02174)
+texture = ExtResource("22_suqxw")
+
+[node name="Rock" type="Sprite2D" parent="background" index="28"]
+position = Vector2(1122, 73)
+scale = Vector2(0.179612, 0.21831)
+texture = ExtResource("23_fpxdy")
+
+[node name="2A" type="Sprite2D" parent="background" index="29"]
+position = Vector2(1828.63, 5.375)
+scale = Vector2(0.513158, 0.434385)
+texture = ExtResource("32_se7y5")
+
+[node name="2" type="Sprite2D" parent="background" index="30"]
+position = Vector2(-355, -83)
+scale = Vector2(0.251196, 0.224252)
+texture = ExtResource("32_se7y5")
+
+[node name="Sign" parent="." index="3"]
+visible = false
+
+[node name="Keyboard" parent="." index="4"]
+visible = false
+
+[node name="GoBack" parent="." index="5"]
+position = Vector2(-623.75, 36.8125)
+scale = Vector2(0.0842308, 0.0853688)
+
+[node name="Brick7" parent="." index="6" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(330, 73)
+
+[node name="Brick17" parent="." index="7" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(331, 64)
+
+[node name="Brick2" parent="." index="8" instance=ExtResource("10_r8hce")]
+position = Vector2(635, -37)
+
+[node name="Brick8" parent="." index="9" instance=ExtResource("10_r8hce")]
+position = Vector2(-372, 31)
+
+[node name="Brick15" parent="." index="10" instance=ExtResource("10_r8hce")]
+position = Vector2(-103, 32)
+
+[node name="Brick9" parent="." index="11" instance=ExtResource("10_r8hce")]
+position = Vector2(-372, -20)
+
+[node name="Brick4" parent="." index="12" instance=ExtResource("10_r8hce")]
+position = Vector2(705, -11)
+
+[node name="Brick10" parent="." index="13" instance=ExtResource("10_r8hce")]
+position = Vector2(1213, -19)
+
+[node name="Brick11" parent="." index="14" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(901, -77)
+
+[node name="Brick12" parent="." index="15" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(933, -77)
+
+[node name="Brick13" parent="." index="16" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(917, -77)
+
+[node name="Brick14" parent="." index="17" instance=ExtResource("10_r8hce")]
+visible = false
+position = Vector2(949, -77)
+
+[node name="Brick5" parent="." index="18" instance=ExtResource("10_r8hce")]
+position = Vector2(856, -98)
+
+[node name="Cloud6" parent="." index="19"]
+visible = false
+
+[node name="Cloud5" parent="." index="20"]
+visible = false
+
+[node name="Cloud2" parent="." index="21"]
+visible = false
+
+[node name="Pencil" parent="." index="23"]
+visible = false
+
+[node name="Logo" parent="." index="24"]
+visible = false
+
+[node name="Pipe" type="Sprite2D" parent="Enemies" index="0"]
+position = Vector2(521.5, 48.25)
+scale = Vector2(0.787234, 1.39362)
+texture = ExtResource("24_7xh8u")
+
+[node name="Goomba" parent="Enemies" index="1"]
+visibility_layer = 4
+position = Vector2(25, 72)
+
+[node name="Goomba7" parent="Enemies" index="2" instance=ExtResource("5_mhlpv")]
+visibility_layer = 4
+position = Vector2(47, 70)
+
+[node name="Goomba2" parent="Enemies" index="3"]
+position = Vector2(701, 68)
+
+[node name="Goomba8" parent="Enemies" index="6" instance=ExtResource("5_mhlpv")]
+position = Vector2(1056, 68)
+
+[node name="Goomba5" parent="Enemies" index="7" instance=ExtResource("5_mhlpv")]
+position = Vector2(1160, 68)
+
+[node name="Goomba6" parent="Enemies" index="8" instance=ExtResource("5_mhlpv")]
+position = Vector2(1214, -38)
+
+[node name="Koopa" parent="Enemies" index="9"]
+position = Vector2(403, -77)
+
+[node name="Koopa2" parent="Enemies" index="10" instance=ExtResource("6_ng020")]
+position = Vector2(168, -60)
+
+[node name="Koopa3" parent="Enemies" index="11" instance=ExtResource("6_ng020")]
+position = Vector2(-61, -56)
+
+[node name="Koopa6" parent="Enemies" index="12" instance=ExtResource("6_ng020")]
+position = Vector2(-102, 9)
+
+[node name="Koopa4" parent="Enemies" index="13" instance=ExtResource("6_ng020")]
+position = Vector2(197, -82)
+
+[node name="Koopa5" parent="Enemies" index="14" instance=ExtResource("6_ng020")]
+position = Vector2(226, -101)
+
+[node name="Coin1" parent="Enemies" index="15" instance=ExtResource("11_d87oc")]
+position = Vector2(-372, 13)
+
+[node name="Coin2" parent="Enemies" index="16" instance=ExtResource("11_d87oc")]
+position = Vector2(-371, -39)
+
+[node name="Coin3" parent="Enemies" index="17" instance=ExtResource("11_d87oc")]
+position = Vector2(237, 36)
+
+[node name="Coin4" parent="Enemies" index="18" instance=ExtResource("11_d87oc")]
+position = Vector2(202, 37)
+
+[node name="Coin7" parent="Enemies" index="19" instance=ExtResource("11_d87oc")]
+position = Vector2(1192, 15)
+
+[node name="Coin9" parent="Enemies" index="20" instance=ExtResource("11_d87oc")]
+position = Vector2(635, -55)
+
+[node name="Coin5" parent="Enemies" index="21" instance=ExtResource("11_d87oc")]
+position = Vector2(219, 26)
+
+[node name="Coin8" type="Sprite2D" parent="Enemies" index="22"]
+position = Vector2(635, -55)
+scale = Vector2(2.375, 1)
+texture = ExtResource("12_6y803")
+
+[node name="Bowser" parent="Enemies" index="23"]
+visible = false
+
+[node name="Barrel" type="Sprite2D" parent="Enemies" index="24"]
+position = Vector2(332, 67)
+texture = ExtResource("17_5mqgo")
+
+[node name="Brick" parent="." index="28"]
+position = Vector2(664, 33)
+
+[node name="MysteryBox2" parent="mysteryBoxes" index="1"]
+position = Vector2(775, 32)
+
+[node name="MysteryBox3" parent="mysteryBoxes" index="2"]
+position = Vector2(362, 29)
+bonus_type = 0
+
+[node name="MysteryBox4" parent="mysteryBoxes" index="3"]
+position = Vector2(581, 32)
+
+[node name="MysteryBox5" parent="mysteryBoxes" index="4"]
+position = Vector2(1089, 32)
+
+[node name="MysteryBox6" parent="mysteryBoxes" index="5" instance=ExtResource("7_ng020")]
+position = Vector2(790, 32)
+
+[node name="MysteryBox7" parent="mysteryBoxes" index="6" instance=ExtResource("7_ng020")]
+position = Vector2(805, 32)
+
+[node name="MysteryBox10" parent="mysteryBoxes" index="7" instance=ExtResource("7_ng020")]
+position = Vector2(739, -45)
+
+[node name="MysteryBox11" parent="mysteryBoxes" index="8" instance=ExtResource("7_ng020")]
+position = Vector2(772, -66)
+
+[node name="MysteryBox12" parent="mysteryBoxes" index="9" instance=ExtResource("7_ng020")]
+position = Vector2(803, -85)
+
+[node name="MysteryBox8" parent="mysteryBoxes" index="10" instance=ExtResource("7_ng020")]
+position = Vector2(820, 32)
+
+[node name="MysteryBox14" parent="mysteryBoxes" index="11" instance=ExtResource("7_ng020")]
+position = Vector2(981, -131)
+invisible = true
+
+[node name="MysteryBox15" parent="mysteryBoxes" index="12" instance=ExtResource("7_ng020")]
+position = Vector2(945, -135)
+invisible = true
+
+[node name="MysteryBox16" parent="mysteryBoxes" index="13" instance=ExtResource("7_ng020")]
+position = Vector2(908, -134)
+invisible = true
+
+[node name="Goomba" parent="." index="30"]
+position = Vector2(665, -8)
+
+[node name="Brick6" type="Sprite2D" parent="." index="32"]
+position = Vector2(-88, 104)
+scale = Vector2(3, 3)
+texture = ExtResource("15_uvwjj")
+
+[node name="Brick16" type="Sprite2D" parent="." index="33"]
+position = Vector2(85, 104)
+scale = Vector2(3.375, 3)
+texture = ExtResource("15_uvwjj")
+flip_h = true
+flip_v = true
+
+[node name="fallDownArea6" parent="." index="35" instance=ExtResource("8_vn2uo")]
+position = Vector2(-702, 119)
+
+[node name="fallDownArea5" parent="." index="36" instance=ExtResource("8_vn2uo")]
+position = Vector2(1430, 122)
+
+[node name="pipe" parent="pipes" index="0"]
+position = Vector2(898, 56)
+
+[node name="pipe2" parent="pipes" index="1"]
+visible = false
+is_traversable = false
+
+[node name="pipe4" parent="pipes" index="3" instance=ExtResource("5_onqnr")]
+position = Vector2(1392, 24)
+height = 64
+is_traversable = true
+
+[node name="fallDownArea2" parent="FallDownAreas" index="0"]
+position = Vector2(-781, 120)
+
+[node name="fallDownArea5" parent="FallDownAreas" index="1" instance=ExtResource("8_vn2uo")]
+position = Vector2(-859, 120)
+
+[node name="fallDownArea6" parent="FallDownAreas" index="2" instance=ExtResource("8_vn2uo")]
+position = Vector2(1780, 97)
+
+[node name="fallDownArea7" parent="FallDownAreas" index="3" instance=ExtResource("8_vn2uo")]
+position = Vector2(1859, 96)
+
+[node name="pipeReturnPoint" parent="." index="43"]
+position = Vector2(520, 14)
+
+[node name="1" parent="." index="45"]
+position = Vector2(-531.728, 294.878)
+scale = Vector2(0.00139304, -3.72116)
+
+[node name="Brick3" parent="." index="46"]
+visible = false
+
+[node name="Bush2" parent="." index="47"]
+visible = false
+
+[node name="Chain" parent="." index="48"]
+visible = false
+
+[node name="Chain2" parent="." index="49"]
+visible = false
+
+[node name="Chain3" parent="." index="50"]
+visible = false
+
+[node name="Supbox0" type="Sprite2D" parent="." index="51"]
+position = Vector2(1213.5, -19.5)
+scale = Vector2(1.1875, 1.1875)
+texture = ExtResource("36_uv1om")
+
+[node name="ClimbUp" type="Sprite2D" parent="." index="52"]
+position = Vector2(-531.5, -51)
+scale = Vector2(0.0454535, 1)
+texture = ExtResource("25_suqxw")
+hframes = 7
+
+[node name="ClimbUp2" type="Sprite2D" parent="." index="53"]
+position = Vector2(-534, -51)
+scale = Vector2(0.0454535, 1)
+texture = ExtResource("25_suqxw")
+hframes = 7
+
+[node name="ClimbUp3" type="Sprite2D" parent="." index="54"]
+position = Vector2(-536, -51)
+scale = Vector2(0.0454535, 1)
+texture = ExtResource("25_suqxw")
+hframes = 7
+
+[node name="PipePink" type="Sprite2D" parent="." index="55"]
+position = Vector2(1392, 48)
+scale = Vector2(1.11765, 1.3617)
+texture = ExtResource("37_1g7bq")
+
+[node name="Moon" parent="." index="56"]
+position = Vector2(1193, -216)
+scale = Vector2(1.15958, 1.20263)
+
+[node name="PipeGray" parent="." index="57"]
+visible = false
+
+[connection signal="draw" from="TileMap" to="player" method="_on_tile_map_draw"]

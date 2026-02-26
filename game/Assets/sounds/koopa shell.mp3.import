@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmsw1b6x2pc1q"
+path="res://.godot/imported/koopa shell.mp3-31cb99a07db5c98b1869db5a72d7b378.mp3str"
+
+[deps]
+
+source_file="res://Assets/sounds/koopa shell.mp3"
+dest_files=["res://.godot/imported/koopa shell.mp3-31cb99a07db5c98b1869db5a72d7b378.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

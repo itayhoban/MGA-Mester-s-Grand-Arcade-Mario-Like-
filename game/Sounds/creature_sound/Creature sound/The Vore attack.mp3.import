@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bx3qudf675ss4"
+path="res://.godot/imported/The Vore attack.mp3-ec1ebc0e5e33e604fe94a3e6936076f6.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/The Vore attack.mp3"
+dest_files=["res://.godot/imported/The Vore attack.mp3-ec1ebc0e5e33e604fe94a3e6936076f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bvfrq7d2tw1vq"
+path="res://.godot/imported/button 1.mp3-64601abbedda4e43bde6c88a16a1f24b.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Environmental sound/button 1.mp3"
+dest_files=["res://.godot/imported/button 1.mp3-64601abbedda4e43bde6c88a16a1f24b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

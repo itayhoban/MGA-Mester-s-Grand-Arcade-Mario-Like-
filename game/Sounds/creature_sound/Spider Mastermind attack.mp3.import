@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3kin56g78u3l"
+path="res://.godot/imported/Spider Mastermind attack.mp3-3a465f687bb086ee29e402c81fc3a2d5.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Spider Mastermind attack.mp3"
+dest_files=["res://.godot/imported/Spider Mastermind attack.mp3-3a465f687bb086ee29e402c81fc3a2d5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

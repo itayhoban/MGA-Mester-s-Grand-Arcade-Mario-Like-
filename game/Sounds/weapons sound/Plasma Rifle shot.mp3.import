@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1xqssobr17q0"
+path="res://.godot/imported/Plasma Rifle shot.mp3-1db0a9b133874f04bc01b5fea93bcd46.mp3str"
+
+[deps]
+
+source_file="res://Sounds/weapons sound/Plasma Rifle shot.mp3"
+dest_files=["res://.godot/imported/Plasma Rifle shot.mp3-1db0a9b133874f04bc01b5fea93bcd46.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

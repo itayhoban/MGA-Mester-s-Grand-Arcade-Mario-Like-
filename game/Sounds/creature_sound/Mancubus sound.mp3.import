@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7fi6o4ri3mjw"
+path="res://.godot/imported/Mancubus sound.mp3-11524ade092bf3fe7f65b1084ad2d838.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Mancubus sound.mp3"
+dest_files=["res://.godot/imported/Mancubus sound.mp3-11524ade092bf3fe7f65b1084ad2d838.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

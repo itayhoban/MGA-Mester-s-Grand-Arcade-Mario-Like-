@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bxohf06i64p2m"
+path="res://.godot/imported/Inferno Titan attack.mp3-67cb12a25b405516dd9712ead5980d31.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Inferno Titan attack.mp3"
+dest_files=["res://.godot/imported/Inferno Titan attack.mp3-67cb12a25b405516dd9712ead5980d31.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

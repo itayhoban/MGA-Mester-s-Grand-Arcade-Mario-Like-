@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://hl2aytmlexhs"
+path="res://.godot/imported/UMP45 shot.mp3-166a6b7b58e7ec59e3123474cfca698d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/weapons sound/UMP45 shot.mp3"
+dest_files=["res://.godot/imported/UMP45 shot.mp3-166a6b7b58e7ec59e3123474cfca698d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

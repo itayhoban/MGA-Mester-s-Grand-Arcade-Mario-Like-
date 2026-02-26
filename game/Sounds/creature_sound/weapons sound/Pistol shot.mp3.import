@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cx40vb7pqtaei"
+path="res://.godot/imported/Pistol shot.mp3-923b9dbf49d5b5ce8e163c305bf145ce.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/weapons sound/Pistol shot.mp3"
+dest_files=["res://.godot/imported/Pistol shot.mp3-923b9dbf49d5b5ce8e163c305bf145ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

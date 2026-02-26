@@ -1,0 +1,62 @@
+[gd_scene load_steps=10 format=3 uid="uid://b7pnmbn4pwttt"]
+
+[ext_resource type="Script" uid="uid://11stjvhb412o" path="res://Scripts/mystery_box.gd" id="1_rxf3s"]
+[ext_resource type="Texture2D" uid="uid://bd6jpavfnpeay" path="res://Assets/Sprites/supbox1.png" id="2_ft6ap"]
+[ext_resource type="Texture2D" uid="uid://b7c1pgru3edhh" path="res://Assets/Sprites/supbox2.png" id="3_wf30p"]
+[ext_resource type="Texture2D" uid="uid://bvxfqxygtei2r" path="res://Assets/Sprites/supbox3.png" id="4_qdjpb"]
+[ext_resource type="Texture2D" uid="uid://bub1el6q5kf02" path="res://Assets/Sprites/supbox4.png" id="5_itntc"]
+[ext_resource type="Texture2D" uid="uid://dxstf3eeggcla" path="res://Assets/Sprites/EmptyBlock.png" id="5_qdjpb"]
+[ext_resource type="Texture2D" uid="uid://bw17auwtqmkcx" path="res://Assets/Sprites/supbox0.png" id="7_rn5rq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_celf2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ft6ap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wf30p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qdjpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_itntc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_qdjpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rn5rq")
+}],
+"loop": true,
+"name": &"empty",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qc778"]
+size = Vector2(16, 16)
+
+[node name="MysteryBox" type="StaticBody2D"]
+z_index = 2
+collision_layer = 16
+collision_mask = 13
+script = ExtResource("1_rxf3s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_celf2")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qc778")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, -10)
+collision_mask = 4
+collide_with_areas = true
+collide_with_bodies = false

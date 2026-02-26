@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cheslyrkj6dxw"
+path="res://.godot/imported/Imp attack.mp3-60697d236f635fd9bc4ebbd9f8d4a947.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Imp attack.mp3"
+dest_files=["res://.godot/imported/Imp attack.mp3-60697d236f635fd9bc4ebbd9f8d4a947.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

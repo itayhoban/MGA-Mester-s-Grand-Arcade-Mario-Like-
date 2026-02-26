@@ -1,0 +1,114 @@
+[gd_scene load_steps=21 format=3 uid="uid://cd33hk6eq4q57"]
+
+[ext_resource type="Texture2D" uid="uid://ybjn3bdmsft5" path="res://Assets/Sprites/w17.png" id="2_fsllg"]
+[ext_resource type="Texture2D" uid="uid://bwnrkhejo2ntb" path="res://Assets/Sprites/w1.png" id="3_fsllg"]
+[ext_resource type="Script" uid="uid://ch7pu0hv0o0yl" path="res://Scripts/goomba.gd" id="3_jf5fk"]
+[ext_resource type="Texture2D" uid="uid://5073rqsnt4hr" path="res://Assets/Sprites/w2.png" id="4_y3wnt"]
+[ext_resource type="Texture2D" uid="uid://c4fma6473pe41" path="res://Assets/Sprites/w3.png" id="5_35fkc"]
+[ext_resource type="Texture2D" uid="uid://b0ti1lnec1h8d" path="res://Assets/Sprites/w4.png" id="6_eiqt6"]
+[ext_resource type="Texture2D" uid="uid://c63vi6evqpu35" path="res://Assets/Sprites/w5.png" id="7_swwyp"]
+[ext_resource type="Texture2D" uid="uid://6hw8wxbdobrp" path="res://Assets/Sprites/w6.png" id="8_cs4ra"]
+[ext_resource type="Texture2D" uid="uid://vutfjcu08gup" path="res://Assets/Sprites/w7.png" id="9_3g671"]
+[ext_resource type="Texture2D" uid="uid://cm37y0qf48vyj" path="res://Assets/Sprites/w8.png" id="10_vsf06"]
+[ext_resource type="Texture2D" uid="uid://dmn22ln3bhfrx" path="res://Assets/Sprites/w9.png" id="11_qvto4"]
+[ext_resource type="Texture2D" uid="uid://2jajj1orsqis" path="res://Assets/Sprites/w10.png" id="12_nmn6o"]
+[ext_resource type="Texture2D" uid="uid://cvnychdrx2xw0" path="res://Assets/Sprites/w11.png" id="13_eqe3i"]
+[ext_resource type="Texture2D" uid="uid://dwa84x7qigf5u" path="res://Assets/Sprites/w12.png" id="14_txvld"]
+[ext_resource type="Texture2D" uid="uid://cdsbpmo0tisp7" path="res://Assets/Sprites/w13.png" id="15_kj5ub"]
+[ext_resource type="Texture2D" uid="uid://cy65n4exjy747" path="res://Assets/Sprites/w14.png" id="16_fj8h8"]
+[ext_resource type="Texture2D" uid="uid://6dhhku7v3fuy" path="res://Assets/Sprites/w15.png" id="17_q0m82"]
+[ext_resource type="Texture2D" uid="uid://bwwale6c4606j" path="res://Assets/Sprites/w16.png" id="18_m66su"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_78mqb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fsllg")
+}],
+"loop": true,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_fsllg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_y3wnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_35fkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_eiqt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_swwyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cs4ra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3g671")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_vsf06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qvto4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_nmn6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_eqe3i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_txvld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kj5ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_fj8h8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_q0m82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_m66su")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 25.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0o2j"]
+
+[node name="Goomba" type="Area2D"]
+collision_layer = 4
+collision_mask = 25
+script = ExtResource("3_jf5fk")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -2)
+sprite_frames = SubResource("SpriteFrames_78mqb")
+animation = &"walk"
+autoplay = "walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_v0o2j")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(0, 8)
+collision_mask = 18
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(5.36442e-07, -1.75)
+scale = Vector2(1, 1.025)
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

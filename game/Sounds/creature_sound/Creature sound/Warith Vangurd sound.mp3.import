@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://43ahhgoj7fbw"
+path="res://.godot/imported/Warith Vangurd sound.mp3-a7a0d64fc5487abbb4fa0f7dbccd40e5.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Warith Vangurd sound.mp3"
+dest_files=["res://.godot/imported/Warith Vangurd sound.mp3-a7a0d64fc5487abbb4fa0f7dbccd40e5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

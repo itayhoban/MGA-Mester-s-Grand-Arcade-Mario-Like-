@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di0xiajaqfqsv"
+path="res://.godot/imported/Cave Lion attack.mp3-501b92437236c37f69f1ad1ce1c0da5f.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Cave Lion attack.mp3"
+dest_files=["res://.godot/imported/Cave Lion attack.mp3-501b92437236c37f69f1ad1ce1c0da5f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

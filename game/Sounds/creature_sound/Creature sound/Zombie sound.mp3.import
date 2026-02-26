@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://o2c3rs8hlf1b"
+path="res://.godot/imported/Zombie sound.mp3-c8d71965ac6464b9e7146f39d76c7b12.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Zombie sound.mp3"
+dest_files=["res://.godot/imported/Zombie sound.mp3-c8d71965ac6464b9e7146f39d76c7b12.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

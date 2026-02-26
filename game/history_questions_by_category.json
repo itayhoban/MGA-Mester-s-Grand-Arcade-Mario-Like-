@@ -1,0 +1,247 @@
+[
+  {
+	"category": "Period of the Prophets",
+	"questions": [
+	  {
+		"question": "Who was the prophet that fought against the prophets of Baal on Mount Carmel?",
+		"choices": ["Isaiah", "Jeremiah", "Elijah", "Ezekiel"],
+		"correctIndex": 2
+	  },
+	  {
+		"question": "Which prophet announced the prophecy of the birth of a child with descriptive names indicating his future abilities, such as 'Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace'?",
+		"choices": ["Isaiah", "Jeremiah", "Hezekiah", "Habakkuk"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "What is the meaning of the prophet Hosea's name as expressed in his book?",
+		"choices": ["\"The Lord Helps\"", "\"The Lord Saves\"", "\"The Lord Sees\"", "\"The Lord Fights\""],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which prophet sharply criticized King David following the sin of Bathsheba?",
+		"choices": ["Samuel", "Nathan", "Zephaniah", "Jeremiah"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which of the minor prophets, who was a shepherd by profession, expressed prophecies with social criticism against social injustices throughout Israel?",
+		"choices": ["Nahum", "Micah", "Obadiah", "Amos"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "Who was the prophet that continued Elijah's path after his ascension to heaven?",
+		"choices": ["Elisha", "Jeremiah", "Amos", "Isaiah"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which prophet became famous for his amazing visions, especially the vision of the dry bones?",
+		"choices": ["Jeremiah", "Ezekiel", "Isaiah", "Obadiah"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which prophet is known for his prophecy about the birth of the Messiah from the city of Bethlehem, considered one of the main prophecies of the period?",
+		"choices": ["Amos", "Jeremiah", "Isaiah", "Micah"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "Which prophet was sent to the city of Nineveh to call for repentance, tried to flee his mission but eventually returned and fulfilled it?",
+		"choices": ["Haggai", "Amos", "Jonah", "Micah"],
+		"correctIndex": 2
+	  },
+	  {
+		"question": "Which prophet foretold the destruction of Jerusalem and dealt with the people's grief?",
+		"choices": ["Isaiah", "Jeremiah", "Micah", "Ezekiel"],
+		"correctIndex": 1
+	  }
+	]
+  },
+  {
+	"category": "Ancient Rome",
+	"questions": [
+	  {
+		"question": "Which Roman ruler was assassinated in the Senate in 44 BCE?",
+		"choices": ["Augustus", "Julius Caesar", "Nero", "Caligula"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which Roman structure is famous for events such as gladiator fights?",
+		"choices": ["The Pantheon", "The Colosseum", "The Castrum", "The Temple of Diana"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "What was the main form of government in Rome before the imperial period?",
+		"choices": ["Monarchy", "Dictatorship", "Republic", "Empire"],
+		"correctIndex": 2
+	  },
+	  {
+		"question": "Who is considered the first emperor of Rome?",
+		"choices": ["Julius Caesar", "Augustus", "Tiberius", "Nero"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "What was one of the foundations of government that led to the expansion of the Roman Empire?",
+		"choices": ["The organized Roman army", "An economy based solely on maritime trade", "Decentralized political leadership", "Exclusive religious connection with the gods"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which of the following was not considered a Roman emperor?",
+		"choices": ["Julius Caesar", "Augustus", "Tiberius", "Nero"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which battle is considered the turning point that ended the Roman civil wars and ensured Augustus' rise to power?",
+		"choices": ["Battle of Trajan", "Battle of Actium", "Battle of Pharsalus", "Battle of Corinth"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "What was the importance of the Roman Forum?",
+		"choices": ["Religious center", "Commercial and political center", "Residential area for the elite only", "Designated area for performances and entertainment"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which Roman road was built as a main route linking cities of the empire and is considered one of the engineering achievements of the period?",
+		"choices": ["Via Aurelia", "Via Flaminia", "Via Sacra", "Via Appia"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "What was the role of consuls in the Roman Republic?",
+		"choices": ["Only military leaders without political powers", "Political leaders with extensive powers over the state command", "Representatives of the monarchy", "Religious advisors only"],
+		"correctIndex": 1
+	  }
+	]
+  },
+  {
+	"category": "Middle Ages",
+	"questions": [
+	  {
+		"question": "In what year did the Battle of Stamford Bridge take place?",
+		"choices": ["1066", "1215", "987", "1492"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which ruler is known for establishing a unified legal system in England and for the signing of the Magna Carta?",
+		"choices": ["Richard the Lionheart", "William the Conqueror", "King John", "Charlemagne"],
+		"correctIndex": 2
+	  },
+	  {
+		"question": "What was the name of the knights' order established to protect pilgrims to Jerusalem?",
+		"choices": ["Knights of the Round Table", "Order of the Templars", "Teutonic Knights", "Order of the Hospitallers"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which deadly plague spread across Europe in the 14th century and changed society's face?",
+		"choices": ["The Red Plague", "The Black Death", "Smallpox", "Typhus"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Which breakthrough weapon changed the rules of warfare at the end of the Middle Ages?",
+		"choices": ["The English Longbow", "Roman Catapult", "Welsh Dagger", "Norman Sword"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "What was the role of the 'seigneur' in the feudal system?",
+		"choices": ["Church leader", "Mercenary soldier", "King's representative in major cities", "Lord of the estate who granted land to vassals"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "Which famous fortress located on the coast of France is considered one of the most impressive medieval buildings?",
+		"choices": ["Neuschwanstein Castle", "Mont-Saint-Michel", "Edinburgh Castle", "Tower of London"],
+		"correctIndex": 1
+	  },
+	  {
+		"question": "Who was the French female warrior considered a national heroine and was burned at the stake?",
+		"choices": ["Joan of Arc", "Catherine de' Medici", "Eleanor of Aquitaine", "Isabeau of Bavaria"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "What was the primary language of science and scholarship in medieval Europe?",
+		"choices": ["Latin", "French", "German", "English"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which architectural style is characterized by pointed arches, flying buttresses, and large stained glass windows?",
+		"choices": ["Romanesque", "Gothic", "Baroque", "Renaissance"],
+		"correctIndex": 1
+	  }
+	]
+  },
+  {
+	"category": "Napoleonic Wars",
+	"questions": [
+	  {
+		"question": "Which treaty marked the end of the Napoleonic Wars in 1815?",
+		"choices": ["Treaty of Tilsit", "Treaty of Vienna", "Treaty of Paris", "Congress of Vienna"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "Which battle is considered Napoleon’s final defeat?",
+		"choices": ["Battle of Austerlitz", "Battle of Leipzig", "Battle of Trafalgar", "Battle of Waterloo"],
+		"correctIndex": 3
+	  },
+	  {
+		"question": "Who led the British forces against Napoleon at the Battle of Waterloo?",
+		"choices": ["Duke of Wellington", "Horatio Nelson", "Marshal Ney", "Prince Metternich"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "Which island was Napoleon exiled to first after his abdication in 1814?",
+		"choices": ["Elba", "Saint Helena", "Corsica", "Malta"],
+		"correctIndex": 0
+	  },
+	  {
+		"question": "What was the name of the military code established by Napoleon that influenced many modern legal systems?",
+		"choices": ["Napoleonic Code", "Code of Hammurabi", "Code of Justinian", "Magna Carta"],
+		"correctIndex": 0
+	  },
+	   {
+	  "question": "What was the name of the alliance formed by Britain, Russia, Austria, and Prussia to defeat Napoleon after his return from Elba?",
+	  "choices": [
+		"The Holy Alliance",
+		"The Quadruple Alliance",
+		"The Continental System",
+		"The Concert of Europe"
+	  ],
+	  "correctIndex": 1
+	},
+	{
+	  "question": "What strategy did the Russians use to weaken Napoleon’s army during the invasion of 1812?",
+	  "choices": [
+		"Naval blockade",
+		"Divide and conquer",
+		"Scorched earth policy",
+		"Blitzkrieg"
+	  ],
+	  "correctIndex": 2
+	},
+	{
+	  "question": "What title did Napoleon take after becoming ruler of France in 1804?",
+	  "choices": [
+		"King of France",
+		"Emperor of the French",
+		"Supreme Leader",
+		"First Minister"
+	  ],
+	  "correctIndex": 1
+	},
+	{
+	  "question": "Which major naval battle in 1805 prevented Napoleon from invading Britain?",
+	  "choices": [
+		"Battle of Jena",
+		"Battle of Trafalgar",
+		"Battle of Borodino",
+		"Battle of the Nile"
+	  ],
+	  "correctIndex": 1
+	},
+	{
+	  "question": "What was the name of Napoleon’s return from exile in 1815, which lasted 100 days?",
+	  "choices": [
+		"The Long March",
+		"The Emperor’s Revenge",
+		"The Hundred Days",
+		"The Final Push"
+	  ],
+	  "correctIndex": 2
+	}
+	]
+  }
+]

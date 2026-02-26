@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cul20fbkpd6c0"
+path="res://.godot/imported/Zombie attack.mp3-0ae3511c4bc7e5d181bec27d1a50201b.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Zombie attack.mp3"
+dest_files=["res://.godot/imported/Zombie attack.mp3-0ae3511c4bc7e5d181bec27d1a50201b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

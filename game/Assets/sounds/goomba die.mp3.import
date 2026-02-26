@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d1bax7neprnmn"
+path="res://.godot/imported/goomba die.mp3-96e3b04fc16807756d4b47aba803a9d9.mp3str"
+
+[deps]
+
+source_file="res://Assets/sounds/goomba die.mp3"
+dest_files=["res://.godot/imported/goomba die.mp3-96e3b04fc16807756d4b47aba803a9d9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

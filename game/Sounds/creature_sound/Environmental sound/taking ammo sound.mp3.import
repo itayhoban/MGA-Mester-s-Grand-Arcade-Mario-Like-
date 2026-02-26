@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di8dbi6ratf6k"
+path="res://.godot/imported/taking ammo sound.mp3-006ed70a2d80c0ce332afa643a06f1f3.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Environmental sound/taking ammo sound.mp3"
+dest_files=["res://.godot/imported/taking ammo sound.mp3-006ed70a2d80c0ce332afa643a06f1f3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

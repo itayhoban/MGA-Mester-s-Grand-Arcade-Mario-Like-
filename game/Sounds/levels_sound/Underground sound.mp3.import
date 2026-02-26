@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cpo5dupexxo1h"
+path="res://.godot/imported/Underground sound.mp3-8fb39b832eb042cfd36ddb849ec3c375.mp3str"
+
+[deps]
+
+source_file="res://Sounds/levels_sound/Underground sound.mp3"
+dest_files=["res://.godot/imported/Underground sound.mp3-8fb39b832eb042cfd36ddb849ec3c375.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

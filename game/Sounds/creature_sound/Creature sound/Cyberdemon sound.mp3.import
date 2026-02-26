@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r7qwahvgu7t"
+path="res://.godot/imported/Cyberdemon sound.mp3-422074c6968e60f1418c3f713bad1387.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Cyberdemon sound.mp3"
+dest_files=["res://.godot/imported/Cyberdemon sound.mp3-422074c6968e60f1418c3f713bad1387.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

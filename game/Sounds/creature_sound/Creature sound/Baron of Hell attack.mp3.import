@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d12oelyejmclu"
+path="res://.godot/imported/Baron of Hell attack.mp3-e837b5aaa51a440c66f6579e5194bca6.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Baron of Hell attack.mp3"
+dest_files=["res://.godot/imported/Baron of Hell attack.mp3-e837b5aaa51a440c66f6579e5194bca6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

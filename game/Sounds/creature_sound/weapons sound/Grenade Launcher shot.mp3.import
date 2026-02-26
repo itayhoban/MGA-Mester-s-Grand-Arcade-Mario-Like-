@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1l783tg01yjv"
+path="res://.godot/imported/Grenade Launcher shot.mp3-9bdcc454c53b3a74d8756c14f0c991eb.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/weapons sound/Grenade Launcher shot.mp3"
+dest_files=["res://.godot/imported/Grenade Launcher shot.mp3-9bdcc454c53b3a74d8756c14f0c991eb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

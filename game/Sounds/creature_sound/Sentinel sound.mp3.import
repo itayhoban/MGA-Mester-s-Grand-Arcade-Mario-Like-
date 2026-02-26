@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj8c3lsdlrsdc"
+path="res://.godot/imported/Sentinel sound.mp3-c1e3a0e25c9649ff3d7e672d72947592.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Sentinel sound.mp3"
+dest_files=["res://.godot/imported/Sentinel sound.mp3-c1e3a0e25c9649ff3d7e672d72947592.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

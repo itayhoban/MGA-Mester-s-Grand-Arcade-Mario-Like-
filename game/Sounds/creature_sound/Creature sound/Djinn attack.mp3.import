@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dahgcot5l3xsr"
+path="res://.godot/imported/Djinn attack.mp3-244f019bb14a1f4fe1874ae2c6db92f6.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Djinn attack.mp3"
+dest_files=["res://.godot/imported/Djinn attack.mp3-244f019bb14a1f4fe1874ae2c6db92f6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

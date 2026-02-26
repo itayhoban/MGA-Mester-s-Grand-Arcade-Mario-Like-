@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjvqiutt1t60t"
+path="res://.godot/imported/Minigun shot.mp3-07509a1bb2303d451e00dac8ebeded3b.mp3str"
+
+[deps]
+
+source_file="res://Sounds/weapons sound/Minigun shot.mp3"
+dest_files=["res://.godot/imported/Minigun shot.mp3-07509a1bb2303d451e00dac8ebeded3b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,251 @@
+[gd_scene load_steps=4 format=3 uid="uid://bytfw5nvlngpy"]
+
+[ext_resource type="PackedScene" uid="uid://di3kibajg6ifn" path="res://Scenes/ui.tscn" id="1_gnmox"]
+[ext_resource type="Texture2D" uid="uid://dyn52ykdb80r" path="res://Assets/Sprites/credit background.png" id="2_gnmox"]
+[ext_resource type="Script" uid="uid://cuneebl8tut56" path="res://Scripts/subtitles.gd" id="3_k1f8w"]
+
+[node name="Credit" type="Node2D"]
+script = ExtResource("3_k1f8w")
+
+[node name="CreditBackground" type="Sprite2D" parent="."]
+position = Vector2(0.250015, 0.249987)
+scale = Vector2(0.551738, 0.552669)
+texture = ExtResource("2_gnmox")
+
+[node name="TextEdit1" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -221.0
+offset_top = -168.0
+offset_right = 238.0
+offset_bottom = 127.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Game Design:
+
+Lead Game Designer - Oren Hassid
+Level Designer - Itay Hoban
+Game Mechanic Designer - Oren Hassid
+Puzzle Designer - Itay Hoban
+Narrative Designer - Oren Hassid
+UI/UX Designer - Itay Hoban
+"
+minimap_width = 107
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -217.0
+offset_top = -527.0
+offset_right = 242.0
+offset_bottom = -247.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Environment Designer - Oren Hassid
+Character Designer - Itay Hoban
+Combat Designer - Oren Hassid
+Progression Designer - Itay Hoban
+Balance Designer - Oren Hassid
+Concept Artist - Itay Hoban
+Storyboard Artist - Oren Hassid
+"
+minimap_width = 107
+
+[node name="TextEdit3" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -208.0
+offset_top = -932.0
+offset_right = 251.0
+offset_bottom = -652.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "World Builder - Itay Hoban
+Gameplay Tester - Oren Hassid
+Playtesting Coordinator - Itay Hoban
+Design Document Writer - Oren Hassid
+Prototype Developer - Itay Hoban
+Art Direction - Oren Hassid
+Visual Effects Designer - Itay Hoban
+
+"
+minimap_width = 107
+
+[node name="TextEdit4" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -201.0
+offset_top = -1349.0
+offset_right = 258.0
+offset_bottom = -1060.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Programming:
+
+Lead Programmer - Itay Hoban
+Gameplay Programmer - Oren Hassid
+AI Programmer - Itay Hoban
+Physics Programmer - Oren Hassid
+Shader Programmer - Itay Hoban
+UI Programmer - Oren Hassid
+"
+minimap_width = 107
+
+[node name="TextEdit5" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -197.0
+offset_top = -1709.0
+offset_right = 262.0
+offset_bottom = -1450.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Animation Programmer - Itay Hoban
+Audio Programmer - Oren Hassid
+Network Programmer - Itay Hoban
+Tools Developer - Oren Hassid
+Engine Optimization - Itay Hoban
+Bug Fixer - Oren Hassid
+Script Writer - Itay Hoban
+Build Manager - Oren Hassid
+Performance Analyst - Itay Hoban
+Code Reviewer - Oren Hassid
+Debug Specialist - Oren Hassid
+Version Control Manager - Itay Hoban
+
+Art and Animation:
+
+Lead Artist - Oren Hassid
+2D Artist - Itay Hoban
+3D Modeler - Oren Hassid
+Texture Artist - Itay Hoban
+Animator - Oren Hassid
+Rigging Artist - Itay Hoban
+Lighting Artist - Oren Hassid
+Particle Effects Artist - Itay Hoban
+
+Audio:
+
+Lead Sound Designer - Itay Hoban
+Music Composer - Oren Hassid
+Sound Effects Creator - Itay Hoban
+Voice Actor - Oren Hassid
+Audio Mixer - Itay Hoban
+Foley Artist - Oren Hassid
+
+Production:
+
+Producer - Oren Hassid
+Project Manager - Itay Hoban
+Quality Assurance Lead - Oren Hassid
+Marketing Coordinator - Itay Hoban"
+minimap_width = 107
+
+[node name="TextEdit6" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -191.0
+offset_top = -2054.0
+offset_right = 268.0
+offset_bottom = -1841.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Build Manager - Oren Hassid
+Performance Analyst - Itay Hoban
+Code Reviewer - Oren Hassid
+Debug Specialist - Oren Hassid
+Version Control Manager - Itay Hoban
+
+"
+minimap_width = 107
+
+[node name="TextEdit7" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -192.0
+offset_top = -2385.0
+offset_right = 267.0
+offset_bottom = -2121.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Art and Animation:
+
+Lead Artist - Oren Hassid
+2D Artist - Itay Hoban
+3D Modeler - Oren Hassid
+Texture Artist - Itay Hoban
+Animator - Oren Hassid
+"
+minimap_width = 107
+
+[node name="TextEdit8" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -192.0
+offset_top = -2761.0
+offset_right = 267.0
+offset_bottom = -2469.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Rigging Artist - Itay Hoban
+Lighting Artist - Oren Hassid
+Particle Effects Artist - Itay Hoban
+
+Audio:
+
+Lead Sound Designer - Itay Hoban
+Music Composer - Oren Hassid
+"
+minimap_width = 107
+
+[node name="TextEdit9" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -193.0
+offset_top = -2977.0
+offset_right = 266.0
+offset_bottom = -2809.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Sound Effects Creator - Itay Hoban
+Voice Actor - Oren Hassid
+Audio Mixer - Itay Hoban
+Foley Artist - Oren Hassid
+
+"
+minimap_width = 107
+
+[node name="TextEdit10" type="TextEdit" parent="."]
+texture_filter = 2
+offset_left = -194.0
+offset_top = -3295.0
+offset_right = 265.0
+offset_bottom = -3044.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 23
+text = "Production:
+
+Producer - Oren Hassid
+Project Manager - Itay Hoban
+Quality Assurance Lead - Oren Hassid
+Marketing Coordinator - Itay Hoban"
+minimap_width = 107
+
+[node name="TextEdit11" type="TextEdit" parent="."]
+modulate = Color(1, 0.521569, 1, 1)
+texture_filter = 2
+offset_left = -111.0
+offset_top = -3584.0
+offset_right = 163.0
+offset_bottom = -3488.0
+theme_override_colors/word_highlighted_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 56
+text = "THE END"
+minimap_width = 107
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+visible = false
+offset_left = -292.0
+offset_top = -160.0
+offset_right = 435.0
+offset_bottom = 140.0
+color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+
+[node name="Camera2D" type="Camera2D" parent="Node2D"]
+zoom = Vector2(2.75, 2.75)
+
+[node name="UI" parent="Node2D" instance=ExtResource("1_gnmox")]
+visible = false

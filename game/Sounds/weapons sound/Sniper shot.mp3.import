@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmdrwe8nmeo8i"
+path="res://.godot/imported/Sniper shot.mp3-a469a7e042943ccad185c681137af341.mp3str"
+
+[deps]
+
+source_file="res://Sounds/weapons sound/Sniper shot.mp3"
+dest_files=["res://.godot/imported/Sniper shot.mp3-a469a7e042943ccad185c681137af341.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

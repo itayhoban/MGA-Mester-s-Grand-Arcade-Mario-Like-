@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0jdf4b65lnfx"
+path="res://.godot/imported/Hell Knight sound.mp3-01fd93d7d56cf58827e098554178b86d.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Hell Knight sound.mp3"
+dest_files=["res://.godot/imported/Hell Knight sound.mp3-01fd93d7d56cf58827e098554178b86d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

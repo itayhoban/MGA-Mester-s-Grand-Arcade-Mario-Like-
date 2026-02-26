@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://83wbvjxxdobv"]
+
+[node name="coin" type="Area2D"]
+collision_layer = 0
+
+[connection signal="body_entered" from="." to="." method="_on_coin_body_entered"]

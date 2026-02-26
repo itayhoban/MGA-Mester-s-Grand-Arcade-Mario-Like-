@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cpaggd6vkumdc"
+path="res://.godot/imported/Crawler sound.mp3-9d8cacdff7d6d5f1d6b24b4e60e330c8.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Crawler sound.mp3"
+dest_files=["res://.godot/imported/Crawler sound.mp3-9d8cacdff7d6d5f1d6b24b4e60e330c8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

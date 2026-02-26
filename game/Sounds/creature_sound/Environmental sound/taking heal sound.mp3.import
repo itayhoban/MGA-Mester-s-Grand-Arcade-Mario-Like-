@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://diwk5upewarn3"
+path="res://.godot/imported/taking heal sound.mp3-4fd0241e016d1afcf964fee54434857f.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Environmental sound/taking heal sound.mp3"
+dest_files=["res://.godot/imported/taking heal sound.mp3-4fd0241e016d1afcf964fee54434857f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

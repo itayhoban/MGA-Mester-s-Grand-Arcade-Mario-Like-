@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpbk7kfq87pt3"
+path="res://.godot/imported/Cave Lion sound.mp3-336a3279d0f1131bed04775d8bce5dfa.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Cave Lion sound.mp3"
+dest_files=["res://.godot/imported/Cave Lion sound.mp3-336a3279d0f1131bed04775d8bce5dfa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

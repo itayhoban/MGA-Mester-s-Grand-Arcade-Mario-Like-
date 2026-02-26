@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvh2mpygxlras"
+path="res://.godot/imported/end level sound.mp3-f9e6ba18da1e60d49ec374f818d3d24a.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Environmental sound/end level sound.mp3"
+dest_files=["res://.godot/imported/end level sound.mp3-f9e6ba18da1e60d49ec374f818d3d24a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

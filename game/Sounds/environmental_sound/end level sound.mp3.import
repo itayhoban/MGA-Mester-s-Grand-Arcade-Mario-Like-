@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clv4akik4qdfc"
+path="res://.godot/imported/end level sound.mp3-149506ade93ebdd3e21b6618f3295f02.mp3str"
+
+[deps]
+
+source_file="res://Sounds/environmental_sound/end level sound.mp3"
+dest_files=["res://.godot/imported/end level sound.mp3-149506ade93ebdd3e21b6618f3295f02.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

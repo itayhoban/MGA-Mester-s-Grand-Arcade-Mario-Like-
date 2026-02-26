@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csnkmha4r0a3i"
+path="res://.godot/imported/Hell Knight attack.mp3-bb66d3125deb0a998967cfdea2061f2e.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Hell Knight attack.mp3"
+dest_files=["res://.godot/imported/Hell Knight attack.mp3-bb66d3125deb0a998967cfdea2061f2e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cura2ufjnx8dp"
+path="res://.godot/imported/Imp sound.mp3-21c1e430b8b2c42b5df6c43e43dfa15a.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Creature sound/Imp sound.mp3"
+dest_files=["res://.godot/imported/Imp sound.mp3-21c1e430b8b2c42b5df6c43e43dfa15a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

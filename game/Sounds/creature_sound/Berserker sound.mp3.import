@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cgn21ax7hv1h0"
+path="res://.godot/imported/Berserker sound.mp3-e74746d6d2ea7404f6feaf25d321e227.mp3str"
+
+[deps]
+
+source_file="res://Sounds/creature_sound/Berserker sound.mp3"
+dest_files=["res://.godot/imported/Berserker sound.mp3-e74746d6d2ea7404f6feaf25d321e227.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

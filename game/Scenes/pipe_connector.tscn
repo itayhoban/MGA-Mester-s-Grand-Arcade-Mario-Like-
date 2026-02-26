@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://so0ryem7frxr"]
+
+[ext_resource type="Script" uid="uid://c0w5liljqm8o1" path="res://Scripts/pipe_connector.gd" id="1_x6bxn"]
+[ext_resource type="Texture2D" uid="uid://8hx0hwj6028f" path="res://Assets/Sprites/PipeConnection.png" id="2_yv6sp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j77og"]
+size = Vector2(8, 4.5)
+
+[node name="pipeConnector" type="StaticBody2D"]
+collision_layer = 16
+collision_mask = 5
+script = ExtResource("1_x6bxn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_yv6sp")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -8, -16, -8, -32, -8, -32, 24, 0, 24, 32, 24, 32, -24, 0, -24, 0, -8, -16, -8)
+
+[node name="Entrance" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Entrance"]
+position = Vector2(-32, 21.75)
+shape = SubResource("RectangleShape2D_j77og")
+
+[connection signal="body_entered" from="Entrance" to="." method="_on_entrance_body_entered"]

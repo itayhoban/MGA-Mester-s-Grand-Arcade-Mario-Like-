@@ -1,0 +1,113 @@
+[gd_scene load_steps=17 format=3 uid="uid://b828m5k3s7u1v"]
+
+[ext_resource type="Texture2D" uid="uid://bh2i2pbd72n30" path="res://Assets/Sprites/GroundBlock.png" id="1_klq58"]
+[ext_resource type="Texture2D" uid="uid://8as4lix1a8pr" path="res://Assets/Sprites/HardBlock.png" id="2_vjn2u"]
+[ext_resource type="Texture2D" uid="uid://dbhkvad8kmca" path="res://Assets/Sprites/UndergroundBlock.png" id="3_b1jfo"]
+[ext_resource type="Texture2D" uid="uid://dtkrgfs1x5qrr" path="res://Assets/Sprites/UndergroundBrick.png" id="4_roq3d"]
+[ext_resource type="PackedScene" uid="uid://cm43553oc7cvq" path="res://Scenes/player.tscn" id="5_vjn2u"]
+[ext_resource type="PackedScene" uid="uid://so0ryem7frxr" path="res://Scenes/pipe_connector.tscn" id="6_b1jfo"]
+[ext_resource type="PackedScene" uid="uid://xfsubdxn8epd" path="res://Scenes/pipe.tscn" id="7_roq3d"]
+[ext_resource type="Script" uid="uid://ite6edr5eh6q" path="res://Scripts/level_manager.gd" id="8_dxcm5"]
+[ext_resource type="PackedScene" uid="uid://wtn087e13tgs" path="res://Scenes/collectable_coin.tscn" id="9_twoi0"]
+[ext_resource type="PackedScene" uid="uid://di3kibajg6ifn" path="res://Scenes/ui.tscn" id="10_75biv"]
+[ext_resource type="Texture2D" uid="uid://tqea46etdmsv" path="res://Assets/Sprites/moon.png" id="11_h7wo6"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dxcm5"]
+texture = ExtResource("1_klq58")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_twoi0"]
+texture = ExtResource("2_vjn2u")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_75biv"]
+texture = ExtResource("3_b1jfo")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h7wo6"]
+texture = ExtResource("4_roq3d")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_afg2h"]
+physics_layer_0/collision_layer = 2
+sources/1 = SubResource("TileSetAtlasSource_dxcm5")
+sources/2 = SubResource("TileSetAtlasSource_twoi0")
+sources/3 = SubResource("TileSetAtlasSource_75biv")
+sources/4 = SubResource("TileSetAtlasSource_h7wo6")
+
+[node name="Underground" type="Node"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -292.0
+offset_top = -160.0
+offset_right = 435.0
+offset_bottom = 140.0
+color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.75, 2.75)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_afg2h")
+format = 2
+layer_0/tile_data = PackedInt32Array(-196618, 4, 0, -196617, 4, 0, -196616, 4, 0, -196615, 4, 0, -196614, 4, 0, -196613, 4, 0, -196612, 4, 0, -196611, 4, 0, -196610, 4, 0, -196609, 4, 0, -262144, 4, 0, -262142, 4, 0, -262141, 4, 0, -262143, 4, 0, 524275, 3, 0, 524276, 3, 0, 524277, 3, 0, 393206, 3, 0, 458742, 3, 0, 524278, 3, 0, 393207, 3, 0, 458743, 3, 0, 524279, 3, 0, 393208, 3, 0, 458744, 3, 0, 524280, 3, 0, 393209, 3, 0, 458745, 3, 0, 524281, 3, 0, 393210, 3, 0, 458746, 3, 0, 524282, 3, 0, 393211, 3, 0, 458747, 3, 0, 524283, 3, 0, 393212, 3, 0, 458748, 3, 0, 524284, 3, 0, 393213, 3, 0, 458749, 3, 0, 524285, 3, 0, 393214, 3, 0, 458750, 3, 0, 524286, 3, 0, 393215, 3, 0, 458751, 3, 0, 524287, 3, 0, 327680, 3, 0, 393216, 3, 0, 458752, 3, 0, 327681, 3, 0, 393217, 3, 0, 458753, 3, 0, 327682, 3, 0, 393218, 3, 0, 458754, 3, 0, 327683, 3, 0, 393219, 3, 0, 458755, 3, 0, 327684, 3, 0, 393220, 3, 0, 458756, 3, 0, 327685, 3, 0, 393221, 3, 0, 458757, 3, 0, 327686, 3, 0, 393222, 3, 0, 458758, 3, 0, 327687, 3, 0, 393223, 3, 0, 458759, 3, 0, 327688, 3, 0, 393224, 3, 0, 458760, 3, 0, 327689, 3, 0, 393225, 3, 0, 458761, 3, 0, 327690, 3, 0, 393226, 3, 0, 458762, 3, 0, 327671, 4, 0, 262135, 4, 0, 196599, 4, 0, 196600, 4, 0, 196601, 4, 0, 262137, 4, 0, 262138, 4, 0, 262139, 4, 0, 262140, 4, 0, 262141, 4, 0, 262142, 4, 0, 262143, 4, 0, 196607, 4, 0, 131072, 4, 0, 131073, 4, 0, 196609, 4, 0, 196610, 4, 0, 262146, 4, 0, 196611, 4, 0, 131075, 4, 0, 131074, 4, 0, 262147, 4, 0, 262145, 4, 0, 262144, 4, 0, 327679, 4, 0, 196608, 4, 0, 327678, 4, 0, 327677, 4, 0, 327676, 4, 0, 327675, 4, 0, 327674, 4, 0, 327673, 4, 0, 327672, 4, 0, 262136, 4, 0, 196602, 4, 0, 196603, 4, 0, 196604, 4, 0, 196605, 4, 0, 196606, 4, 0, -196622, 4, 0, -131086, 4, 0, -65550, 4, 0, -14, 4, 0, 65522, 4, 0, 131058, 4, 0, 196594, 4, 0, 262130, 4, 0, 327666, 4, 0, -196623, 4, 0, -131087, 4, 0, -65551, 4, 0, -15, 4, 0, 65521, 4, 0, 131057, 4, 0, 196593, 4, 0, 262129, 4, 0, 327665, 4, 0, 393202, 3, 0, 458738, 3, 0, 524274, 3, 0, 393201, 3, 0, 524273, 3, 0, 458737, 3, 0)
+
+[node name="player" parent="." instance=ExtResource("5_vjn2u")]
+position = Vector2(-176, -48)
+
+[node name="pipeConnector" parent="." instance=ExtResource("6_b1jfo")]
+position = Vector2(144, 56)
+return_point = Vector2(120, 56)
+
+[node name="pipe" parent="." instance=ExtResource("7_roq3d")]
+position = Vector2(160, -56)
+height = 140
+
+[node name="UI" parent="." instance=ExtResource("10_75biv")]
+
+[node name="LevelManager" type="Node" parent="." node_paths=PackedStringArray("ui", "player") groups=["level_manager"]]
+process_mode = 3
+script = ExtResource("8_dxcm5")
+ui = NodePath("../UI")
+player = NodePath("../player")
+
+[node name="coins" type="Node" parent="."]
+
+[node name="collectableCoin" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(8, 16)
+
+[node name="collectableCoin2" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-16, 16)
+
+[node name="collectableCoin3" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-40, 16)
+
+[node name="collectableCoin4" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-64, 16)
+
+[node name="collectableCoin5" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-88, 16)
+
+[node name="collectableCoin6" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-112, 16)
+
+[node name="collectableCoin7" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-88, -8)
+
+[node name="collectableCoin8" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-64, -8)
+
+[node name="collectableCoin9" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-32, -8)
+
+[node name="collectableCoin10" parent="coins" instance=ExtResource("9_twoi0")]
+position = Vector2(-8, -8)
+
+[node name="Moon" type="Sprite2D" parent="."]
+position = Vector2(277, -52)
+texture = ExtResource("11_h7wo6")
+hframes = 2
